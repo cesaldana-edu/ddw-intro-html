@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Biografia">
+    <title>Biograf&iacute;a Laura Mart&iacute;nez</title>
+    <!-- Ejemplo de uso de link tag para asociar un archive .css -->
+    <link rel="stylesheet" href="styles.css">
+    <!-- Eejmplo de uso de style tag-->
+    <style>
+        .header { color: #333; text-align: center; padding: 1em; } 
+
+        .header h1 { margin-bottom: 1em; font-size: 4em;}
+
+        .header h3 { margin-top: 1em;}
+
+        .menu { border-top: 1px solid #666; border-bottom: 1px solid #666; margin-top: 1em; }
+
+        .menu a { text-decoration: none; margin: 0 1em; text-transform: uppercase; font-weight: 700; color: #333; }
+
+        .article { margin-bottom: 1em; }
+
+        .article a { color: #f0f0f0; }
+
+        .social-media { margin-top: 1.4em; margin-bottom: 3em; }
+
+        .social-media a { margin: 0 .5em; padding-top: 1em; }
+
+        .social-icon { width: 30px; height: 30px; }
+
+        .disclaimer { background-color: bisque; color: #333; font-style: italic; font-size: 1em;  text-align: center; padding: .5em; }
+
+        p { line-height: 1.7em; }
+
+        h2 { font-size: 2.3em; margin: .5em 10px; }
+
+        #gallery { width: 100%; border-collapse: collapse; border: none; }
+
+        #gallery td { text-align: center; }
+
+        img { width: 100%; height: auto; }
+        
+    </style>
+    </style>
+</head>
+<body style="background-color: #f0f0f0; color: #333;">
+    <div class="disclaimer">Esta p&aacute;gina fue creada para el Ejercicio 1 de Diseño y Desarrollo Web.</div>
+
+    <header class="header">
+        <h1>Biograf&iacute;a</h1>
+        <!-- Ejemplo de styling inline -->
+        <img src="img/image-01.png" alt="Laura Martinez" style="border-radius: 50%; width: 200px;">
+        <h3>Laura Mart&iacute;nez</h3>
+    </header>
+
+    <!-- Ejemplo de inline styling  -->
+    <nav id="main-nav" class="menu" style="text-align: center; padding: 0.5em;">
+        <a href="#about">Acerca de</a>
+        <a href="#career">Carrera</a>
+        <a href="#family">Familia</a>
+        <a href="#social-media">Contacto</a>
+    </nav>
+
+    <main class="container">
+        <section id="about">
+            <article>
+                <h2>Acerca de</h2>
+                <div class="image">
+                    <img src="img/image-05.png" alt="Laura Martinez" class="column" style="width: 250px; height: auto; border: 1px solid #9b7951;">
+                </div>
+                <div class="text">
+                    <p>Laura nació en la Ciudad Aut&oacute;noma de Buenos Aires el 30 de Octubre de 1982.</p>
+                    <p>Es especialista en marketing con una década de experiencia en el sector. Desde que comenzó su carrera, ha trabajado con diversas empresas, ayudándolas a desarrollar estrategias de marketing efectivas y a alcanzar sus objetivos comerciales.</pp>
+                    <p>Está casada con Carlos, y juntos tienen dos hijos, Sofía y Mateo. 
+                    <p>En su tiempo libre, Laura disfruta planificando sus próximas escapadas y documentando sus experiencias a través de fotografías y relatos en su blog personal. Su habilidad para equilibrar una exitosa carrera profesional con una vida familiar llena de aventuras es una inspiración para todos los que la conocen.</p>
+                </div>
+            </article>
+        </section>
+
+        <section id="career " style="background-color: #333; color: #f0f0f0;">
+            <h2>Carrera</h2>
+            <div class="text">
+                <p>Graduada de la Lic. en Marketing de la UAI en 2012, Laura ha trabajado en diversas empresas donde ha colaborado en la creación de nuevos productos y 
+                    en el desarrollo de numerosas campañas de marketing digital. Con una sólida comprensión de las tendencias del mercado y un enfoque creativo ha colaborado 
+                    en los siguientes artículos:</p><br/>
+                <ul class="no-bullets">
+                    <li class="article">
+                        <h4>Entendiendo el Marketing Digital</h4>
+                        <p>Nuevas estrategias y herramientas para la promoción en línea de productos y servicios.</p>
+                        <a href="https://es.linkedin.com/pulse/entendiendo-el-marketing-digital" target="_blank">Ver m&aacute;s</a>
+                    </li>
+                    <li class="article">
+                        <h4>¿Cu&aacute;les con los objetivos del Marketing Digital?</h4>
+                        <p>Porqu&eacute; es importante tener objetivos claros antes de invertir en marketing digital.</p>
+                        <a href="https://es.linkedin.com/pulse/cuales-son-los-objetivos-del-marketing-digital" target="_blank">Ver m&aacute;s</a>
+                    </li>
+                </ul>
+                <p style="margin-bottom: 1em; margin-top: 2em;">Empresas en las que ha trabajado:</p> 
+                <ul class="inline-list">
+                    <li>Procter & Gamble</li>
+                    <li>L'Oréal</li>
+                    <li>Unilever</li>
+                </ul>
+            </div>
+            <div class="image">
+                <img src="img/image-06.png" alt="Laura Martinez"  style="width: 300px; height: auto; border: 1px solid #9b7951;"><br/>
+            </div>
+        </section>
+
+        <section id="family">
+            <h2>Familia</h2>
+
+            <article class="family" style="padding: 10px; text-align: justify;">
+                <p>La familia Martínez comparte la pasión por los viajes y siempre que tienen la oportunidad, exploran nuevos destinos. Cada viaje es una nueva aventura que fortalece sus lazos familiares y les permite descubrir nuevas culturas.</p>
+                <table id="gallery" style="margin-top: 1em;">
+                    <tbody>
+                        <tr>
+                            <td><img src="img/image-03.png" alt="Image 1"></td>
+                            <td><img src="img/image-02.png" alt="Image 2"></td>
+                            <td><img src="img/image-04.png" alt="Image 3"></td>
+                        </tr>
+                        <tr>
+                            <td><img src="img/image-07.png" alt="Image 4"></td>
+                            <td><img src="img/image-09.png" alt="Image 5"></td>
+                            <td><img src="img/image-08.png" alt="Image 6"></td>
+                        </tr>              
+                    </tbody>
+                </table>
+            </article>
+        </section>
+    </main>
+    <footer id="main-footer" class="footer-class" style="background-color: #333; color: #f0f0f0; text-align: center; padding: 1em;">  
+        <p>Manteng&aacute;monos en contacto:</p>
+        <div class="social-media">
+            <a href="https://www.facebook.com" target="_blank">
+                <img src="img/icon-facebook.png" alt="Facebook" class="social-icon">
+            </a>
+            <a href="https://www.twitter.com" target="_blank">
+                <img src="img/icon-twitter.png" alt="Twitter" class="social-icon">
+            </a>
+            <a href="https://www.instagram.com" target="_blank">
+                <img src="img/icon-instagram.png" alt="Instagram" class="social-icon">
+            </a>
+            <a href="mailto: laura.martinez@abc.com">
+                <img src="img/icon-mail.png" alt="Mail" class="social-icon">
+            </a>
+        </div>
+    </footer>
+    
+</body>
+</html>
